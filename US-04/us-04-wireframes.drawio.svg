@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="2200" height="1600" viewBox="0 0 2200 1600">
+  <title>US-04 View Daily Subscription History Report Wireframes</title>
+  <desc>Wireframes derived from US-04 user journey: authentication, reports menu, daily subscription history report, no-data state, and CSV export.</desc>
+
+  <defs>
+    <style>
+      .panel { fill: #ffffff; stroke: #1f2937; stroke-width: 2; }
+      .header { fill: #f3f4f6; stroke: #1f2937; stroke-width: 2; }
+      .field { fill: #ffffff; stroke: #9ca3af; stroke-width: 1.5; }
+      .btn { fill: #e5e7eb; stroke: #374151; stroke-width: 1.5; rx: 6; ry: 6; }
+      .btn-primary { fill: #dbeafe; stroke: #1d4ed8; stroke-width: 1.5; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 18px; fill: #111827; }
+      .small { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #374151; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 700; fill: #111827; }
+      .screen { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; fill: #111827; }
+      .error { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #b91c1c; }
+      .ok { font-family: Arial, Helvetica, sans-serif; font-size: 16px; fill: #065f46; }
+      .warn { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #b45309; }
+      .arrow-label { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 700; fill: #1d4ed8; fill-opacity: 0.25; }
+      .arrow { stroke: #4b5563; stroke-width: 2.5; stroke-opacity: 0.5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4b5563" fill-opacity="0.5"/>
+    </marker>
+  </defs>
+
+  <text x="50" y="55" class="title">US-04 Wireframes — View Daily Subscription History Report</text>
+  <text x="50" y="85" class="small">Flow: Login → Reports Menu → Daily Report (Today) → Change Date / No Data → Export CSV</text>
+
+  <!-- Screen 1: Login -->
+  <rect x="50" y="130" width="1000" height="420" class="panel"/>
+  <rect x="50" y="130" width="1000" height="60" class="header"/>
+  <text x="75" y="168" class="screen">Screen 1 — Login</text>
+  <text x="480" y="250" class="label">Sign In</text>
+  <text x="220" y="300" class="label">Username *</text>
+  <rect x="430" y="275" width="420" height="40" class="field"/>
+  <text x="220" y="360" class="label">Password *</text>
+  <rect x="430" y="335" width="420" height="40" class="field"/>
+  <text x="430" y="405" class="small">☐ Remember me</text>
+  <rect x="450" y="445" width="180" height="44" class="btn btn-primary"/>
+  <text x="510" y="473" class="label">Log In</text>
+
+  <!-- Screen 2: Reports Menu -->
+  <rect x="1150" y="130" width="1000" height="500" class="panel"/>
+  <rect x="1150" y="130" width="1000" height="60" class="header"/>
+  <text x="1175" y="168" class="screen">Screen 2 — Reports Section</text>
+  <text x="1180" y="225" class="label">Dashboard &gt; Reports</text>
+
+  <rect x="1180" y="260" width="940" height="320" class="field"/>
+  <text x="1210" y="305" class="label">Available Reports</text>
+
+  <rect x="1210" y="410" width="880" height="54" class="btn btn-primary"/>
+  <text x="1240" y="444" class="small">Daily Subscription History Report</text>
+
+  <!-- Screen 3: Daily Subscription History (data exists) -->
+  <rect x="50" y="620" width="1000" height="940" class="panel"/>
+  <rect x="50" y="620" width="1000" height="60" class="header"/>
+  <text x="75" y="658" class="screen">Screen 3 — Daily Subscription History Report (Default: Today)</text>
+
+  <text x="80" y="715" class="small">Report Date *</text>
+  <rect x="220" y="690" width="220" height="36" class="field"/>
+  <text x="235" y="714" class="small">21/02/2026 ▼</text>
+  <rect x="460" y="690" width="90" height="36" class="btn"/>
+  <text x="487" y="714" class="small">Load</text>
+  <rect x="860" y="690" width="110" height="36" class="btn btn-primary"/>
+  <text x="890" y="714" class="small">Export CSV</text>
+
+  <text x="80" y="765" class="label">Total subscriptions: 3</text>
+
+  <rect x="80" y="790" width="890" height="700" class="field"/>
+  <line x1="80" y1="830" x2="970" y2="830" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <text x="95" y="815" class="small">No.</text>
+  <text x="140" y="815" class="small">Customer ID</text>
+  <text x="240" y="815" class="small">Full Name</text>
+  <text x="375" y="815" class="small">Sub ID</text>
+  <text x="465" y="815" class="small">Package</text>
+  <text x="575" y="815" class="small">Start</text>
+  <text x="655" y="815" class="small">End</text>
+  <text x="730" y="815" class="small">Enrolled By</text>
+  <text x="840" y="815" class="small">Enrolled At</text>
+
+  <text x="95" y="865" class="small">1</text>
+  <text x="140" y="865" class="small">CUS-000145</text>
+  <text x="240" y="865" class="small">Somchai A.</text>
+  <text x="375" y="865" class="small">SUB-001201</text>
+  <text x="465" y="865" class="small">Gold Plan</text>
+  <text x="575" y="865" class="small">21/02/26</text>
+  <text x="655" y="865" class="small">21/03/26</text>
+  <text x="730" y="865" class="small">Narin (CS)</text>
+  <text x="840" y="865" class="small">21/02/26 09:15</text>
+
+  <text x="95" y="900" class="small">2</text>
+  <text x="140" y="900" class="small">CUS-000146</text>
+  <text x="240" y="900" class="small">Suda P.</text>
+  <text x="375" y="900" class="small">SUB-001202</text>
+  <text x="465" y="900" class="small">Silver Plan</text>
+  <text x="575" y="900" class="small">21/02/26</text>
+  <text x="655" y="900" class="small">21/08/26</text>
+  <text x="730" y="900" class="small">Mali (CS)</text>
+  <text x="840" y="900" class="small">21/02/26 10:02</text>
+
+  <text x="95" y="935" class="small">3</text>
+  <text x="140" y="935" class="small">CUS-000148</text>
+  <text x="240" y="935" class="small">Woranuch K.</text>
+  <text x="375" y="935" class="small">SUB-001203</text>
+  <text x="465" y="935" class="small">Platinum</text>
+  <text x="575" y="935" class="small">21/02/26</text>
+  <text x="655" y="935" class="small">21/02/27</text>
+  <text x="730" y="935" class="small">Narin (CS)</text>
+  <text x="840" y="935" class="small">21/02/26 11:40</text>
+
+  <!-- Screen 4: No Data state -->
+  <rect x="1150" y="680" width="1000" height="400" class="panel"/>
+  <rect x="1150" y="680" width="1000" height="60" class="header"/>
+  <text x="1175" y="718" class="screen">Screen 4 — No Data for Selected Date</text>
+
+  <text x="1185" y="775" class="small">Report Date *</text>
+  <rect x="1325" y="750" width="220" height="36" class="field"/>
+  <text x="1340" y="774" class="small">15/02/2026 ▼</text>
+  <rect x="1565" y="750" width="90" height="36" class="btn"/>
+  <text x="1592" y="774" class="small">Load</text>
+  <rect x="2040" y="750" width="95" height="36" class="btn"/>
+  <text x="2061" y="774" class="small">Export</text>
+
+  <rect x="1185" y="810" width="950" height="220" class="field"/>
+  <text x="1220" y="900" class="error">[!] No subscription changes were recorded on 15/02/2026.</text>
+  <text x="1220" y="935" class="small">Try selecting another date to view subscription activity.</text>
+
+  <!-- Screen 5: Export Success -->
+  <rect x="1150" y="1120" width="1000" height="400" class="panel"/>
+  <rect x="1150" y="1120" width="1000" height="60" class="header"/>
+  <text x="1175" y="1158" class="screen">Screen 5 — Export CSV Success</text>
+
+  <text x="1185" y="1230" class="ok">[✓] Daily Subscription History report exported successfully.</text>
+  <text x="1185" y="1270" class="small">File: subscription-history-2026-02-21.csv</text>
+  <text x="1185" y="1310" class="small">Rows exported: 3</text>
+
+  <rect x="1185" y="1360" width="220" height="42" class="btn"/>
+  <text x="1240" y="1387" class="small">Open Downloads</text>
+  <rect x="1425" y="1360" width="260" height="42" class="btn btn-primary"/>
+  <text x="1455" y="1387" class="small">View Another Report Date</text>
+
+  <!-- Flow arrows -->
+  <path d="M 1050 340 L 1140 340" class="arrow"/>
+  <path d="M 1500 630 L 980 620" class="arrow"/>
+  <path d="M 1050 920 L 1140 920" class="arrow"/>
+  <text x="1060" y="908" class="arrow-label">Change date / Load</text>
+  <path d="M 1150 980 L 1060 980" class="arrow"/>
+  <text x="1065" y="968" class="arrow-label">Select another date</text>
+  <path d="M 1050 1260 L 1140 1260" class="arrow"/>
+  <text x="1060" y="1248" class="arrow-label">Export CSV</text>
+  <path d="M 1425 1370 L 1060 1370" class="arrow"/>
+  <text x="1175" y="1358" class="arrow-label">View Another Report Date</text>
+</svg>

@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="2200" height="1600" viewBox="0 0 2200 1600">
+  <title>US-03 View Daily New Customer Report Wireframes</title>
+  <desc>Wireframes derived from US-03 user journey: authentication, report access, daily report review, date change, no-data state, and CSV export.</desc>
+
+  <defs>
+    <style>
+      .panel { fill: #ffffff; stroke: #1f2937; stroke-width: 2; }
+      .header { fill: #f3f4f6; stroke: #1f2937; stroke-width: 2; }
+      .field { fill: #ffffff; stroke: #9ca3af; stroke-width: 1.5; }
+      .btn { fill: #e5e7eb; stroke: #374151; stroke-width: 1.5; rx: 6; ry: 6; }
+      .btn-primary { fill: #dbeafe; stroke: #1d4ed8; stroke-width: 1.5; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 18px; fill: #111827; }
+      .small { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #374151; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 700; fill: #111827; }
+      .screen { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; fill: #111827; }
+      .error { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #b91c1c; }
+      .ok { font-family: Arial, Helvetica, sans-serif; font-size: 16px; fill: #065f46; }
+      .warn { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #b45309; }
+      .arrow-label { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 700; fill: #1d4ed8; fill-opacity: 0.25; }
+      .arrow { stroke: #4b5563; stroke-width: 2.5; stroke-opacity: 0.5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4b5563" fill-opacity="0.5"/>
+    </marker>
+  </defs>
+
+  <text x="50" y="55" class="title">US-03 Wireframes — View Daily New Customer Report</text>
+  <text x="50" y="85" class="small">Flow: Login → Reports Menu → Daily Report (Today) → Date Change / No Data → Export CSV</text>
+
+  <!-- Screen 1: Login -->
+  <rect x="50" y="130" width="1000" height="420" class="panel"/>
+  <rect x="50" y="130" width="1000" height="60" class="header"/>
+  <text x="75" y="168" class="screen">Screen 1 — Login</text>
+  <text x="480" y="250" class="label">Sign In</text>
+  <text x="220" y="300" class="label">Username *</text>
+  <rect x="430" y="275" width="420" height="40" class="field"/>
+  <text x="220" y="360" class="label">Password *</text>
+  <rect x="430" y="335" width="420" height="40" class="field"/>
+  <text x="430" y="405" class="small">☐ Remember me</text>
+  <rect x="450" y="445" width="180" height="44" class="btn btn-primary"/>
+  <text x="510" y="473" class="label">Log In</text>
+
+  <!-- Screen 2: Reports Menu -->
+  <rect x="1150" y="130" width="1000" height="460" class="panel"/>
+  <rect x="1150" y="130" width="1000" height="60" class="header"/>
+  <text x="1175" y="168" class="screen">Screen 2 — Reports Section</text>
+  <text x="1180" y="225" class="label">Dashboard &gt; Reports</text>
+
+  <rect x="1180" y="260" width="940" height="290" class="field"/>
+  <text x="1210" y="300" class="label">Available Reports</text>
+  <rect x="1210" y="330" width="880" height="54" class="btn btn-primary"/>
+  <text x="1240" y="364" class="label">Daily New Customer Report</text>
+  <text x="1715" y="364" class="small">Open &gt;</text>
+
+  <!-- Screen 3: Daily Report (Today) -->
+  <rect x="50" y="620" width="1000" height="940" class="panel"/>
+  <rect x="50" y="620" width="1000" height="60" class="header"/>
+  <text x="75" y="658" class="screen">Screen 3 — Daily New Customer Report (Today)</text>
+
+  <text x="80" y="720" class="label">Daily New Customer Report</text>
+  <text x="80" y="760" class="small">Report Date</text>
+  <rect x="210" y="735" width="210" height="34" class="field"/>
+  <text x="224" y="758" class="small">2026-02-21 ▼</text>
+  <rect x="435" y="735" width="95" height="34" class="btn"/>
+  <text x="462" y="758" class="small">Refresh</text>
+
+  <rect x="845" y="730" width="125" height="40" class="btn btn-primary"/>
+  <text x="875" y="755" class="small">Export CSV</text>
+
+  <rect x="80" y="790" width="890" height="52" class="field"/>
+  <text x="100" y="823" class="label">Total New Customers: 2</text>
+
+  <rect x="80" y="860" width="890" height="560" class="field"/>
+  <line x1="80" y1="900" x2="970" y2="900" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <text x="95" y="886" class="small">No.</text>
+  <text x="140" y="886" class="small">Customer ID</text>
+  <text x="265" y="886" class="small">Full Name</text>
+  <text x="430" y="886" class="small">Phone</text>
+  <text x="540" y="886" class="small">Email</text>
+  <text x="700" y="886" class="small">Registered At</text>
+  <text x="855" y="886" class="small">Registered By</text>
+
+  <text x="95" y="940" class="small">1</text>
+  <text x="140" y="940" class="small">CUS-000147</text>
+  <text x="265" y="940" class="small">Somchai Arun</text>
+  <text x="430" y="940" class="small">08x-xxx-xxxx</text>
+  <text x="540" y="940" class="small">somchai@example.com</text>
+  <text x="700" y="940" class="small">2026-02-21 09:13</text>
+  <text x="855" y="940" class="small">CS-Aree</text>
+
+  <text x="95" y="980" class="small">2</text>
+  <text x="140" y="980" class="small">CUS-000148</text>
+  <text x="265" y="980" class="small">Suda Prasert</text>
+  <text x="430" y="980" class="small">09x-xxx-xxxx</text>
+  <text x="540" y="980" class="small">suda@example.com</text>
+  <text x="700" y="980" class="small">2026-02-21 11:47</text>
+  <text x="855" y="980" class="small">CS-Niran</text>
+
+  <!-- Screen 4: Date Changed / No Data -->
+  <rect x="1150" y="620" width="1000" height="430" class="panel"/>
+  <rect x="1150" y="620" width="1000" height="60" class="header"/>
+  <text x="1175" y="658" class="screen">Screen 4 — Date Changed (No Data State)</text>
+
+  <text x="1185" y="720" class="small">Report Date</text>
+  <rect x="1310" y="695" width="210" height="34" class="field"/>
+  <text x="1324" y="718" class="small">2026-02-18 ▼</text>
+  <rect x="1535" y="695" width="95" height="34" class="btn"/>
+  <text x="1562" y="718" class="small">Refresh</text>
+
+  <rect x="1185" y="760" width="940" height="60" class="field"/>
+  <text x="1210" y="797" class="label">Total New Customers: 0</text>
+
+  <rect x="1185" y="840" width="940" height="170" class="field"/>
+  <text x="1210" y="900" class="warn">No new customers were registered on 2026-02-18.</text>
+  <text x="1210" y="935" class="small">Try selecting another date to view daily registrations.</text>
+
+  <!-- Screen 5: Export Success -->
+  <rect x="1150" y="1090" width="1000" height="430" class="panel"/>
+  <rect x="1150" y="1090" width="1000" height="60" class="header"/>
+  <text x="1175" y="1128" class="screen">Screen 5 — Export CSV Completed</text>
+
+  <text x="1185" y="1200" class="ok">[✓] Export completed successfully</text>
+  <text x="1185" y="1240" class="small">File downloaded: new-customers-2026-02-21.csv</text>
+  <text x="1185" y="1275" class="small">Columns: No., Customer ID, Full Name, Phone, Email, Registered At, Registered By</text>
+
+  <rect x="1185" y="1335" width="240" height="42" class="btn"/>
+  <text x="1240" y="1362" class="small">Open Downloads</text>
+
+  <rect x="1450" y="1335" width="320" height="42" class="btn btn-primary"/>
+  <text x="1508" y="1362" class="small">View Another Report Date</text>
+
+  <!-- Flow arrows -->
+  <path d="M 1050 340 L 1140 340" class="arrow"/>
+  <path d="M 1500 590 L 980 620" class="arrow"/>
+  <path d="M 1050 860 L 1140 860" class="arrow"/>
+  <text x="1060" y="848" class="arrow-label">Change date / Refresh</text>
+  <path d="M 1150 980 L 1060 980" class="arrow"/>
+  <text x="1065" y="968" class="arrow-label">Select another date</text>
+  <path d="M 1050 1200 L 1140 1200" class="arrow"/>
+  <text x="1060" y="1188" class="arrow-label">Export CSV</text>
+  <path d="M 1450 1370 L 1060 1370" class="arrow"/>
+  <text x="1180" y="1358" class="arrow-label">View Another Report Date</text>
+</svg>

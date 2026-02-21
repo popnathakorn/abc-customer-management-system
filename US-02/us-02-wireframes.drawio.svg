@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="2400" height="1700" viewBox="0 0 2400 1700">
+  <title>US-02 Enroll Customer into Service Package Wireframes</title>
+  <desc>Wireframes derived from US-02 user journey: login, locate customer, open profile, enrollment form, validation, and success confirmation with Subscription ID.</desc>
+
+  <defs>
+    <style>
+      .panel { fill: #ffffff; stroke: #1f2937; stroke-width: 2; }
+      .header { fill: #f3f4f6; stroke: #1f2937; stroke-width: 2; }
+      .field { fill: #ffffff; stroke: #9ca3af; stroke-width: 1.5; }
+      .btn { fill: #e5e7eb; stroke: #374151; stroke-width: 1.5; rx: 6; ry: 6; }
+      .btn-primary { fill: #dbeafe; stroke: #1d4ed8; stroke-width: 1.5; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 18px; fill: #111827; }
+      .small { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #374151; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 700; fill: #111827; }
+      .screen { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; fill: #111827; }
+      .error { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #b91c1c; }
+      .ok { font-family: Arial, Helvetica, sans-serif; font-size: 16px; fill: #065f46; }
+      .warn { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #b45309; }
+      .arrow-label { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 700; fill: #1d4ed8; fill-opacity: 0.25; }
+      .arrow { stroke: #4b5563; stroke-width: 2.5; stroke-opacity: 0.5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4b5563" fill-opacity="0.5"/>
+    </marker>
+  </defs>
+
+  <text x="50" y="55" class="title">US-02 Wireframes — Enroll Customer into Service Package</text>
+  <text x="50" y="85" class="small">Flow: Login → Customer Management → Customer Profile → Enrollment Form → Validation Errors → Success with Subscription ID</text>
+
+  <!-- Screen 1: Login -->
+  <rect x="50" y="130" width="1050" height="420" class="panel"/>
+  <rect x="50" y="130" width="1050" height="60" class="header"/>
+  <text x="75" y="168" class="screen">Screen 1 — Login</text>
+  <text x="500" y="250" class="label">Sign In</text>
+  <text x="230" y="300" class="label">Username *</text>
+  <rect x="440" y="275" width="430" height="40" class="field"/>
+  <text x="230" y="360" class="label">Password *</text>
+  <rect x="440" y="335" width="430" height="40" class="field"/>
+  <text x="440" y="405" class="small">☐ Remember me</text>
+  <rect x="470" y="445" width="180" height="44" class="btn btn-primary"/>
+  <text x="530" y="473" class="label">Log In</text>
+
+  <!-- Screen 2: Customer Management List -->
+  <rect x="1200" y="130" width="1150" height="560" class="panel"/>
+  <rect x="1200" y="130" width="1150" height="60" class="header"/>
+  <text x="1225" y="168" class="screen">Screen 2 — Customer Management (Search &amp; List)</text>
+  <text x="1235" y="225" class="label">Dashboard &gt; Customer Management</text>
+  <rect x="1235" y="250" width="510" height="36" class="field"/>
+  <text x="1247" y="274" class="small">Search customer by name or Customer ID...</text>
+  <rect x="1770" y="250" width="130" height="36" class="field"/>
+  <text x="1794" y="274" class="small">Status: All ▼</text>
+  <rect x="1920" y="250" width="120" height="36" class="btn"/>
+  <text x="1952" y="274" class="small">Search</text>
+
+  <rect x="1235" y="320" width="1070" height="320" class="field"/>
+  <line x1="1235" y1="360" x2="2305" y2="360" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="1255" y="347" class="small">Customer ID</text>
+  <text x="1430" y="347" class="small">Full Name</text>
+  <text x="1690" y="347" class="small">Phone</text>
+  <text x="1910" y="347" class="small">Actions</text>
+
+  <text x="1255" y="400" class="small">CUS-000147</text>
+  <text x="1430" y="400" class="small">Somchai Arun</text>
+  <text x="1690" y="400" class="small">08x-xxx-xxxx</text>
+  <rect x="1900" y="378" width="160" height="34" class="btn btn-primary"/>
+  <text x="1945" y="401" class="small">Open Profile</text>
+
+  <text x="1255" y="445" class="small">CUS-000148</text>
+  <text x="1430" y="445" class="small">Suda Prasert</text>
+  <text x="1690" y="445" class="small">09x-xxx-xxxx</text>
+  <rect x="1900" y="423" width="160" height="34" class="btn"/>
+  <text x="1945" y="446" class="small">Open Profile</text>
+
+  <!-- Screen 3: Customer Profile -->
+  <rect x="50" y="610" width="1050" height="450" class="panel"/>
+  <rect x="50" y="610" width="1050" height="60" class="header"/>
+  <text x="75" y="648" class="screen">Screen 3 — Customer Profile</text>
+  <text x="80" y="690" class="small">Dashboard &gt; Customer Management &gt; Customer Profile</text>
+  <text x="80" y="710" class="label">Customer ID: CUS-000147</text>
+  <text x="80" y="745" class="small">Full Name: Somchai Arun</text>
+  <text x="80" y="775" class="small">Phone Number: 08x-xxx-xxxx</text>
+  <text x="80" y="805" class="small">Current Active Services: 1</text>
+  <text x="80" y="835" class="small">Registered Address: Bang Na, Sub-district (ตำบล/แขวง): Bang Na</text>
+  <rect x="80" y="865" width="280" height="42" class="btn btn-primary"/>
+  <text x="120" y="892" class="small">+ Add Service Enrollment</text>
+  <rect x="80" y="930" width="920" height="120" class="field"/>
+  <text x="95" y="960" class="small">Existing Subscription: SUB-000530 | 4G Family 499 ฿/month | 01/01/2026 - 31/12/2026</text>
+
+  <!-- Screen 4: Enrollment Form -->
+  <rect x="1200" y="730" width="1150" height="920" class="panel"/>
+  <rect x="1200" y="730" width="1150" height="60" class="header"/>
+  <text x="1225" y="768" class="screen">Screen 4 — Add Service Enrollment (Form)</text>
+  <text x="1235" y="800" class="small">Dashboard &gt; Customer Management &gt; Customer Profile &gt; Add Service Enrollment</text>
+
+  <text x="1235" y="825" class="label">Customer Confirmation</text>
+  <rect x="1235" y="840" width="1070" height="95" class="field"/>
+  <text x="1250" y="868" class="small">Customer ID: CUS-000147</text>
+  <text x="1500" y="868" class="small">Customer Name: Somchai Arun</text>
+  <text x="1250" y="895" class="small">Sub-district (ตำบล/แขวง): Bang Na</text>
+  <text x="1250" y="920" class="small">Please confirm this customer before selecting a package</text>
+
+  <text x="1235" y="960" class="label">Select Service Package *</text>
+  <rect x="1235" y="980" width="520" height="240" class="field"/>
+  <text x="1250" y="1010" class="small">◉ 5G Next Speed — 599 ฿/month</text>
+  <text x="1250" y="1040" class="small">○ 4G Max Value — 499 ฿/month</text>
+  <text x="1250" y="1070" class="small">○ 5G Unlimited Pro — 899 ฿/month</text>
+
+  <text x="1780" y="960" class="label">Package Detail Summary</text>
+  <rect x="1780" y="980" width="525" height="240" class="field"/>
+  <text x="1795" y="1010" class="small">Package: 5G Next Speed</text>
+  <text x="1795" y="1040" class="small">Monthly Fee: 599 ฿</text>
+  <text x="1795" y="1070" class="small">Call Minutes: 300 mins (all networks)</text>
+  <text x="1795" y="1100" class="small">Data: 40 GB @ max speed, then 10 Mbps</text>
+
+  <text x="1235" y="1270" class="label">Subscription Period *</text>
+  <text x="1235" y="1310" class="small">Start Date *</text>
+  <rect x="1370" y="1288" width="190" height="34" class="field"/>
+  <text x="1240" y="1348" class="small">End Date *</text>
+  <rect x="1370" y="1326" width="190" height="34" class="field"/>
+
+  <rect x="2060" y="1580" width="100" height="42" class="btn"/>
+  <text x="2088" y="1607" class="small">Cancel</text>
+  <rect x="2175" y="1580" width="150" height="42" class="btn btn-primary"/>
+  <text x="2200" y="1607" class="small">Confirm Enrollment</text>
+
+  <!-- Screen 5: Validation Errors -->
+  <rect x="50" y="1110" width="1050" height="260" class="panel"/>
+  <rect x="50" y="1110" width="1050" height="60" class="header"/>
+  <text x="75" y="1148" class="screen">Screen 5 — Validation Errors</text>
+  <text x="85" y="1210" class="error">[!] Please correct highlighted fields before submission.</text>
+  <text x="85" y="1250" class="small">Package: (none selected)</text>
+  <text x="85" y="1275" class="error">^ This field is required</text>
+  <text x="425" y="1250" class="small">Start Date: 15/03/2026</text>
+  <text x="425" y="1275" class="small">End Date: 14/03/2026</text>
+  <text x="425" y="1300" class="error">^ End date must be later than start date</text>
+
+  <!-- Screen 6: Success -->
+  <rect x="50" y="1400" width="1050" height="250" class="panel"/>
+  <rect x="50" y="1400" width="1050" height="60" class="header"/>
+  <text x="75" y="1438" class="screen">Screen 6 — Success Confirmation</text>
+  <text x="85" y="1505" class="ok">[✓] Service enrollment completed successfully</text>
+  <text x="85" y="1540" class="label">Subscription ID: SUB-000531</text>
+  <text x="85" y="1575" class="small">Customer: CUS-000147 — Somchai Arun</text>
+  <text x="85" y="1600" class="small">Package: 5G Next Speed (599 ฿/month) | 15/03/2026 - 14/03/2027</text>
+
+  <rect x="700" y="1515" width="180" height="40" class="btn"/>
+  <text x="735" y="1540" class="small">View Profile</text>
+  <rect x="895" y="1515" width="190" height="40" class="btn btn-primary"/>
+  <text x="915" y="1540" class="small">Add Another Enrollment</text>
+
+  <!-- Flow arrows -->
+  <path d="M 1100 340 L 1190 340" class="arrow"/>
+  <path d="M 1200 620 L 1110 760" class="arrow"/>
+  <path d="M 1100 830 L 1190 980" class="arrow"/>
+  <path d="M 1200 1220 L 1110 1240" class="arrow"/>
+  <path d="M 1200 1450 L 1110 1520" class="arrow"/>
+  <path d="M 575 1370 L 575 1390" class="arrow"/>
+  <path d="M 790 1515 L 790 1070" class="arrow"/>
+  <text x="805" y="1290" class="arrow-label">View Profile</text>
+  <path d="M 1100 1560 L 1190 1560" class="arrow"/>
+  <text x="930" y="1548" class="arrow-label">Add Another Enrollment</text>
+</svg>
