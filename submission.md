@@ -684,4 +684,4 @@ Content-Type: application/json
 
 ---
 
-> For a full view of how all artifacts, user stories, acceptance criteria, and stakeholder requirements connect across the entire system, refer to the traceability matrix at `traceability-matrix.md`.
+> For a full view of how all artifacts, user stories, acceptance criteria, and stakeholder requirements connect across the entire system, refer to the traceability matrix at [traceability-matrix.md](traceability-matrix.md).
