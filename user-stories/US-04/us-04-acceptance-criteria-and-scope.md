@@ -4,7 +4,7 @@
 > As an **Operations Staff**, I want to view a daily service subscription history report for each customer, so that I can audit subscription changes and ensure accurate billing records.
 
 **Traces To:** SR-2.2
-**User Journey:** `US-04/us-04-user-journey.md`
+**User Journey:** `user-stories/US-04/us-04-user-journey.md`
 
 ---
 

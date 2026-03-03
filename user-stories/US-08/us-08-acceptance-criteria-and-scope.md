@@ -4,7 +4,7 @@
 > As a **Database Administrator**, I want to run a SQL query to retrieve a new customer registration report for each day, so that I can access raw registration data directly from the database for analysis and auditing.
 
 **Traces To:** SR-2.1
-**User Journey:** `US-08/us-08-user-journey.md`
+**User Journey:** `user-stories/US-08/us-08-user-journey.md`
 
 ---
 

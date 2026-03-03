@@ -4,7 +4,7 @@
 > As a **Customer Service Staff**, I want to enroll a customer into a service package (e.g. 5G Next Speed, 599 ฿/month) and record the subscription start and end dates, so that the customer's active service is tracked and managed correctly.
 
 **Traces To:** SR-1.2, SR-3
-**User Journey:** `US-02/us-02-user-journey.md`
+**User Journey:** `user-stories/US-02/us-02-user-journey.md`
 
 ---
 

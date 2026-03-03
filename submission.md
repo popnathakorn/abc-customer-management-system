@@ -324,13 +324,13 @@ WHERE
 
 Flow: Login → Customer Management → Register Form → Validation Errors → Success Confirmation → (View Customer Profile / Register Another Customer)
 
-![US-01 Wireframes](US-01/us-01-wireframes.drawio.svg)
+![US-01 Wireframes](user-stories/US-01/us-01-wireframes.drawio.svg)
 
 #### US-02 — Enroll Customer into Service Package
 
 Flow: Login → Customer Management → Customer Profile → Service Enrollment Form → Validation Errors → Success Confirmation → (View Profile / Add Another Enrollment)
 
-![US-02 Wireframes](US-02/us-02-wireframes.drawio.svg)
+![US-02 Wireframes](user-stories/US-02/us-02-wireframes.drawio.svg)
 
 ---
 

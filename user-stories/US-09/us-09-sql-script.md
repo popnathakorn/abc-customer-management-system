@@ -3,7 +3,7 @@
 **User Story:**
 > As a **Database Administrator**, I want to run a SQL query to retrieve a service subscription history report for each customer per day, so that I can access raw subscription data directly from the database for analysis and auditing.
 
-**Traces To:** SR-2.2 | **Acceptance Criteria:** `US-09/us-09-acceptance-criteria-and-scope.md`
+**Traces To:** SR-2.2 | **Acceptance Criteria:** `user-stories/US-09/us-09-acceptance-criteria-and-scope.md`
 
 ---
 

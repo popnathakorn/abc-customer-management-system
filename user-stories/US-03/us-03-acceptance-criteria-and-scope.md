@@ -4,7 +4,7 @@
 > As an **Operations Staff**, I want to view a daily report of newly registered customers, so that I can monitor business growth and follow up with onboarding processes.
 
 **Traces To:** SR-2.1
-**User Journey:** `US-03/us-03-user-journey.md`
+**User Journey:** `user-stories/US-03/us-03-user-journey.md`
 
 ---
 

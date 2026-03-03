@@ -4,7 +4,7 @@
 > As a **Database Administrator**, I want to run a SQL query to retrieve a service subscription history report for each customer per day, so that I can access raw subscription data directly from the database for analysis and auditing.
 
 **Traces To:** SR-2.2
-**User Journey:** `US-09/us-09-user-journey.md`
+**User Journey:** `user-stories/US-09/us-09-user-journey.md`
 
 ---
 

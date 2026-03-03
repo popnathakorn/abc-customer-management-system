@@ -4,7 +4,7 @@
 > As a **Customer Service Staff**, I want to register a new customer's personal information, registered address, and document delivery address into the system, so that the company has complete and accurate customer records for service and communication purposes.
 
 **Traces To:** SR-1.1, SR-3
-**User Journey:** `US-01/us-01-user-journey.md`
+**User Journey:** `user-stories/US-01/us-01-user-journey.md`
 
 ---
 
